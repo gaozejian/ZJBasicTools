@@ -1,0 +1,6 @@
+framework module ZJBasicTools {
+  umbrella header "ZJBasicTools-umbrella.h"
+
+  export *
+  module * { export * }
+}

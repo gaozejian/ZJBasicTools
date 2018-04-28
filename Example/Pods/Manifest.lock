@@ -1,0 +1,16 @@
+PODS:
+  - ZJBasicTools (0.1.0)
+
+DEPENDENCIES:
+  - ZJBasicTools (from `../`)
+
+EXTERNAL SOURCES:
+  ZJBasicTools:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ZJBasicTools: d987028d6c8f188bd482f5821c66649994c8d0ba
+
+PODFILE CHECKSUM: 448027f4733a78fa44dfa259047c45f69a62ef91
+
+COCOAPODS: 1.3.1
