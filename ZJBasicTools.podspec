@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZJBasicTools'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'a Basic Tool for iOS'
 
 
