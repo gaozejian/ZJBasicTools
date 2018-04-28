@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface UIColor (HEX)
+//分支测试1
 +(UIColor*)randomColor;
 +(UIColor*)ColorRed:(CGFloat)R green:(CGFloat)G blue:(CGFloat)B alpha:(CGFloat)alpha;
 + (UIColor*)colorWithHexString:(NSString*)stringToConvert;
