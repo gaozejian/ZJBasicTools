@@ -16,7 +16,6 @@
 		92405E820DD4EF54BCCFB3DF52AFA9B1 /* ZJBasicTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C3EC3052072F24389159620E3543DA /* ZJBasicTools-dummy.m */; };
 		B20CEA2E0B9235263DCC7AD76745A660 /* ZJBasicTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5472A7BF6795374AE014582D12F7E5B0 /* ZJBasicTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C54B387E62CF724990BCE9FF78FBE23F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		FE699FAC02C3D44CE7CD0FE32B23CF66 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBA7A47C554B8C75057E2E04F5894D /* ReplaceMe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,35 +32,38 @@
 		0397607E8E6E492A443F52858C73D273 /* Pods-ZJBasicTools_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJBasicTools_Example-frameworks.sh"; sourceTree = "<group>"; };
 		06B290DAD1C557FA2C6A6C0342AB5D19 /* Pods-ZJBasicTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZJBasicTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0DA412C531AAF39487849441405B08EF /* Pods-ZJBasicTools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZJBasicTools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1082E123ABCA2F3C2ACACF416129E182 /* ZJBasicTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZJBasicTools.framework; path = ZJBasicTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1082E123ABCA2F3C2ACACF416129E182 /* ZJBasicTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZJBasicTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1173EE0B5F981F0CAF01272E5BAF1D29 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1CFBA7A47C554B8C75057E2E04F5894D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZJBasicTools/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		212F162CD874542CAC147844714AD63E /* ZJBasicTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJBasicTools.xcconfig; sourceTree = "<group>"; };
-		22C291395C566971413F1B531DCE6C44 /* ZJBasicTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ZJBasicTools.modulemap; sourceTree = "<group>"; };
+		22C291395C566971413F1B531DCE6C44 /* ZJBasicTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ZJBasicTools.modulemap; sourceTree = "<group>"; };
 		29DCCD227010EC327BA3944722DE73C2 /* Pods-ZJBasicTools_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJBasicTools_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		2DDB787AF69CC7B65226E694544BB062 /* Pods-ZJBasicTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZJBasicTools_Tests-umbrella.h"; sourceTree = "<group>"; };
-		3B5332E5FB7940E377A749D8A4E85557 /* Pods_ZJBasicTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZJBasicTools_Example.framework; path = "Pods-ZJBasicTools_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B5332E5FB7940E377A749D8A4E85557 /* Pods_ZJBasicTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJBasicTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5472A7BF6795374AE014582D12F7E5B0 /* ZJBasicTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJBasicTools-umbrella.h"; sourceTree = "<group>"; };
 		59AAA52E88234C49F9554F2F8589E4CA /* Pods-ZJBasicTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJBasicTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		59B0BB7393C025A82BE16740BDB66F50 /* Pods-ZJBasicTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJBasicTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5ABBDB03BF6100FE55D32650523A687D /* Pods-ZJBasicTools_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZJBasicTools_Example-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6944E6B9F56341BF7567F922C327D199 /* Pods-ZJBasicTools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZJBasicTools_Example.modulemap"; sourceTree = "<group>"; };
+		6944E6B9F56341BF7567F922C327D199 /* Pods-ZJBasicTools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZJBasicTools_Example.modulemap"; sourceTree = "<group>"; };
 		6FD6D5DFBB499C791539674E6097C1C0 /* Pods-ZJBasicTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJBasicTools_Example.release.xcconfig"; sourceTree = "<group>"; };
-		70F6EE0EE59C94E985C500A2BEC230D5 /* Pods_ZJBasicTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZJBasicTools_Tests.framework; path = "Pods-ZJBasicTools_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70F6EE0EE59C94E985C500A2BEC230D5 /* Pods_ZJBasicTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJBasicTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		773A1D45463ACE7EE388983A1D31732B /* Pods-ZJBasicTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJBasicTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7ADBF4796B373D20B30069BD8A43FE51 /* Pods-ZJBasicTools_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJBasicTools_Example-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A9FEA4D10B5F031A02F85065277513E0 /* Pods-ZJBasicTools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZJBasicTools_Example-dummy.m"; sourceTree = "<group>"; };
 		AC507F808F51CA9C4B597FD70691230F /* Pods-ZJBasicTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJBasicTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B0C3EC3052072F24389159620E3543DA /* ZJBasicTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZJBasicTools-dummy.m"; sourceTree = "<group>"; };
 		BB65BE1F0431602C6008E26ED5AD39B1 /* Pods-ZJBasicTools_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJBasicTools_Tests-resources.sh"; sourceTree = "<group>"; };
 		BBC4FEC098F0D90E8ADEFD8FC6119228 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CC4D091A151B51013573D550B50E8D33 /* Pods-ZJBasicTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZJBasicTools_Tests.modulemap"; sourceTree = "<group>"; };
+		CC4D091A151B51013573D550B50E8D33 /* Pods-ZJBasicTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZJBasicTools_Tests.modulemap"; sourceTree = "<group>"; };
 		CDEB6DBF157A6E7FE85DF2020DB584E4 /* Pods-ZJBasicTools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZJBasicTools_Tests-dummy.m"; sourceTree = "<group>"; };
 		CFAB1EC186B44BC54645708170197C17 /* ZJBasicTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJBasicTools-prefix.pch"; sourceTree = "<group>"; };
 		D55205D8A1914AEAFFD2634658049DDE /* Pods-ZJBasicTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJBasicTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		ECBBC7D8E180997EB8AE6A4CF8FB6BD8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF016C2220946A790076DDB7 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		EF016C2420946A790076DDB7 /* UIColor+HEX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+HEX.h"; sourceTree = "<group>"; };
+		EF016C2520946A790076DDB7 /* UIColor+HEX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HEX.m"; sourceTree = "<group>"; };
+		EF016C2620946A790076DDB7 /* ZJBasicTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJBasicTools.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,7 +153,7 @@
 		AAFF63A604AC8E2A89767B6B5B4C7932 /* ZJBasicTools */ = {
 			isa = PBXGroup;
 			children = (
-				1CFBA7A47C554B8C75057E2E04F5894D /* ReplaceMe.m */,
+				EF016C2120946A790076DDB7 /* Classes */,
 				BBFA84CD31DCB6C8D290A01CE0917D91 /* Support Files */,
 			);
 			name = ZJBasicTools;
@@ -204,6 +206,26 @@
 			);
 			name = "Pods-ZJBasicTools_Example";
 			path = "Target Support Files/Pods-ZJBasicTools_Example";
+			sourceTree = "<group>";
+		};
+		EF016C2120946A790076DDB7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EF016C2220946A790076DDB7 /* .gitkeep */,
+				EF016C2320946A790076DDB7 /* color */,
+			);
+			name = Classes;
+			path = ZJBasicTools/Classes;
+			sourceTree = "<group>";
+		};
+		EF016C2320946A790076DDB7 /* color */ = {
+			isa = PBXGroup;
+			children = (
+				EF016C2420946A790076DDB7 /* UIColor+HEX.h */,
+				EF016C2520946A790076DDB7 /* UIColor+HEX.m */,
+				EF016C2620946A790076DDB7 /* ZJBasicTools.h */,
+			);
+			path = color;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,7 +351,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE699FAC02C3D44CE7CD0FE32B23CF66 /* ReplaceMe.m in Sources */,
 				92405E820DD4EF54BCCFB3DF52AFA9B1 /* ZJBasicTools-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
