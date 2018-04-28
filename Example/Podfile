@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZJBasicTools_Example' do
+  pod 'ZJBasicTools', :path => '../'
+
+  target 'ZJBasicTools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
