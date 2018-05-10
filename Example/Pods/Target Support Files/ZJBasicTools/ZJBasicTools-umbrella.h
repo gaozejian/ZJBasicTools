@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "UIColor+HEX.h"
+#import "ZJBasicTools.h"
+#import "NSDictionary+Log.h"
 
 FOUNDATION_EXPORT double ZJBasicToolsVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZJBasicToolsVersionString[];

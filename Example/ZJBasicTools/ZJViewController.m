@@ -7,7 +7,7 @@
 //
 
 #import "ZJViewController.h"
-
+#import "ZJBasicTools.h"
 @interface ZJViewController ()
 
 @end
@@ -18,8 +18,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+  
 }
-
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    NSDictionary * dic = [[NSDictionary alloc]initWithDictionary:@{@"key":@"你好"}];
+    NSLog(@"%@",dic);
+    self.view.backgroundColor = [UIColor randomColor];
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

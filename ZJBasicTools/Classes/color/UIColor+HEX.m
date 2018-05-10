@@ -9,6 +9,7 @@
 #import "UIColor+HEX.h"
 
 @implementation UIColor (HEX)
+//的点点滴滴多多多多多多多多
 +(UIColor*)randomColor{
     int R = (arc4random() % 256) ;
     int G = (arc4random() % 256) ;
