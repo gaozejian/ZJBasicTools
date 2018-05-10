@@ -8,7 +8,7 @@
 #import <Foundation/Foundation.h>
 
 @interface NSDictionary (Log)
-
+//的点点滴滴多多多多多多多多多多
 @end
 @interface NSArray (Log)
 

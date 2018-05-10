@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface UIColor (HEX)
-//master 修改
+//master 修改啛啛喳喳错错错错错错错错
 +(UIColor*)randomColor;
 
 +(UIColor*)ColorRed:(CGFloat)R green:(CGFloat)G blue:(CGFloat)B alpha:(CGFloat)alpha;

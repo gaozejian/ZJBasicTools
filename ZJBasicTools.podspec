@@ -26,5 +26,5 @@ TODO: Add long description of the pod here.
 
 s.source_files = 'ZJBasicTools/Classes/**/*.{h,m}'
   
-
+s.dependency "Masonry"
 end
