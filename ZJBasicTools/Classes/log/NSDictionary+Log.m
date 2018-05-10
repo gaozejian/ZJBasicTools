@@ -8,6 +8,7 @@
 #import "NSDictionary+Log.h"
 //#import "NSArray+Log.h"
 @implementation NSDictionary (Log)
+//呜呜呜呜无无
 - (NSString *)descriptionWithLocale:(id)locale
 {
     NSMutableString *string = [NSMutableString string];
